@@ -71,4 +71,41 @@ footer .footer-text {
 }
 
 
+/*Cards styles*/
+
+.cards {
+    margin-bottom: 30px;
+}
+
+.cards-title {
+    text-align: center;
+}
+
+.cards-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -8px;
+}
+
+.cards-item {
+    background-color: antiquewhite;
+    border-radius: 5px;
+    color: #040c1f;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 33.333%;
+    margin: 0 8px;
+    align-items: center;
+}
+
+.cards .cards-btn {
+    display: block;
+}
+
+.cards .cards-text {
+    flex: 1 1 auto;
+}
+
+
+
 
